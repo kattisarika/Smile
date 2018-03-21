@@ -1,0 +1,101 @@
+body{
+	font-family:Tiemposheadline,Hevelitca-light;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+}
+
+
+#pboxes{
+	margin-top:90px;
+	margin-left: 100px;
+	margin-right:100px;
+}
+
+#pboxes .imgsections {
+    display: block;
+    margin: 0px 150px 0px 150px;
+    width: auto;
+    height: auto;
+}
+
+ #pboxes h3{
+ 	text-align:center;
+ }
+
+
+
+
+.textdiv{
+	float:left;
+	text-align:left;
+	margin: 0px 15px 10px 100px;
+
+}
+
+.box {
+  
+  font-size:20px;
+  padding: 2em;
+  border: 1px solid #ccc;
+  display: block;
+  width: 40%;
+  height: 300px;
+  float: left;
+  margin: -1px 0 0 25px;
+  color: black;
+  background: linear-gradient(
+     white, white 50%, #333 50%, #333
+  );
+  background-size: 100% 202%;
+  transition: all 0.2s ease;
+  animation: down-bump 0.4s ease;
+}
+.box h2 {
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  line-height: 1.2;
+}
+.box h3 {
+  font: 0.8em "Lucida Grande", serif;
+ 
+}
+
+.box:hover {
+  background-position: 100% 100%;
+  animation: up-bump 0.4s ease;
+
+}
+.box:hover h2 {
+  color: #48ad26;
+
+}
+.box:hover h2 span {
+  color: white;
+}
+.box:hover li {
+  color: #999;
+}
+
+@keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+
+
+.box li{
+
+	list-style-type: none;
+}
+
+a {
+  color: #f06d06;
+  text-decoration: none;
+}
